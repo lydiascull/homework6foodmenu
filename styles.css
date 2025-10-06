@@ -1,12 +1,19 @@
 html {
-    background-color: rgb(210, 240, 255);
+    background-color: rgb(255, 195, 198);
 }
 
 .extras {
 list-style-type: none;
-display: inline-block;
+
 }
 
+.extra {
+display: inline-block;
+border: 2px solid black;
+border-radius: 15px;
+padding: 5px;
+
+}
 .meal-name {
     font-size: 30px;
 }
@@ -23,5 +30,9 @@ display: inline-block;
 
 .option {
     border:2px solid black;
-    border-radius: 15px;
+    border-radius: 20px;
+    list-style-type: none;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(255, 249, 206);
 }
