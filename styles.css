@@ -2,33 +2,26 @@ html {
     background-color: rgb(210, 240, 255);
 }
 
-.meal-name {
-    border-style: solid;
-    border-width: 5px;
-    border-radius: 10px;
-    border-color: red;
-
-}
-
-.menu-item {
-    background-color: #bde4ba;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #728f4d;
-    border-radius: 10px;
-    color: #000000;
-    margin: 8px;
-    padding: 8px;
-    font-size: large;
-}
 .extras {
-    background-color: #ffeebf;
-    border-width: 4px;
-    border-style: solid;
-    border-color: #f9c344;
-    border-radius: 5px;
-    color: #000000;
-    display: inline-block;
-    margin: 8px;
-    padding: 8px;
+list-style-type: none;
+display: inline-block;
+}
+
+.meal-name {
+    font-size: 30px;
+}
+
+.meal {
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(170, 216, 254);
+    list-style-type: none;
+
+}
+
+.option {
+    border:2px solid black;
+    border-radius: 15px;
 }
